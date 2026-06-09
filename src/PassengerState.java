@@ -1,0 +1,6 @@
+enum PassengerState {
+    MOVING,
+    STOWING_BAGGAGE,
+    WAITING_INTERFERENCE,
+    SEATED
+}
