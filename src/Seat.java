@@ -10,7 +10,7 @@ public class Seat {
         this.col = col;
         this.charColumn = ((char) ('A' + col)).toUpperCase().charAt(0);
         this.occupied = false;
-        this.totalCols = Airplane.COLS;
+        this.totalCols = Airplane.col;
     }
 
     public int getRow() {
